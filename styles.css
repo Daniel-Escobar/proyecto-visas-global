@@ -1,0 +1,41 @@
+/* Convecion de Buenas Practicas
+    Posicionamiento --> static, absolute, relative, fixed
+    Modelo de caja (Box model) --> margin, border, padding, content
+    Tipografía --> tipos, tamaños de fuente, etc
+    Estilos visuales --> box-shadow, border-radius, gradient, etc
+    Otros --> reglas CSS y más
+
+    Despues de aplicar un estilo dar un enter
+    Despues de llamar a un clase dar un espacio y a continuacion la llave
+ */
+
+:root {
+    /* Declaracion de Variables */
+    --primary-color:#00adef;
+    --secondary-color:#0d5899;
+    --third-color:#98999b;
+    --bitcoin-orange: #f7931a;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #201e1c;
+    --warm-black-1: #282623;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+    /* Fuentes 
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    */
+}
