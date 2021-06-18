@@ -39,3 +39,16 @@ html {
     font-family: 'Inter', sans-serif;
     */
 }
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+
+    background: linear-gradient(206deg, #faf8f7 45%, #00adef 80%);
+}
