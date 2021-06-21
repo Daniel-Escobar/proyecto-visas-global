@@ -83,7 +83,7 @@ header img {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: var(--warm-black);
+    color: black;
 }
 
 .header--title-container .header--button {
@@ -104,4 +104,12 @@ header img {
     line-height: 1.8rem;
     color: var(--warm-black);
     text-decoration: none;
+}
+
+.header--button span {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url("./assets/icons/vector.svg");
 }
