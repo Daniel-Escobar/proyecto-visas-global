@@ -39,3 +39,196 @@ html {
     font-family: 'Inter', sans-serif;
     */
 }
+
+/*Seccion de estilos Body-main*/
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.main-services-container {
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main-services-container--title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.backgroundImg{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-image: url("./assets/icons/pasaporte.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-services-container--title h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--color-primario);
+    margin-bottom: 30px;
+}
+
+.main-services-container--title p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.main-services-detail {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+}
+
+.service-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: auto;
+    background-color: var(--just-white);
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.service--card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.service--card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.title-one {
+    color: #1A9AF7;
+}
+
+.title-two {
+    color: #FF9536;
+}
+
+.title-tree {
+    color: var(--verde-agua);
+}
+
+/* Seccion beneficios */
+.main-advantage-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+  }
+  
+  .advantage-detail--logo-home {
+    position: absolute;
+    top: -20px;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 40px;
+    background-image: url("./assets/icons/avion.png");
+    background-size: cover;
+  }
+  
+  .advantage-detail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .advantage-detail--title h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    color: var(--just-white);
+  }
+  
+  .advantage-detail--title p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+    margin-bottom: 30px;
+  }
+  
+  .advantage-detail--card {
+    width: 100%;
+    min-width: 288px;
+    max-width: 400px;
+    min-height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black-1);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+  }
+  
+  .advantage-detail--card .card-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+    background-image: url("assets/icons/check-circle.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .advantage-detail--card .check {
+    background-image: url("assets/icons/check-circle.svg");
+  }
+  
+  .advantage-detail--card .dollar {
+    background-image: url("assets/icons/dollar-sign.svg");
+  }
+  
+  .advantage-detail--card .eye {
+    background-image: url("assets/icons/eye.svg");
+  }
+  
+  .advantage-detail--card .clock {
+    background-image: url("assets/icons/clock.svg");
+  }
+  
+  .advantage--card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+    margin-bottom: 10px;
+  }
+  
+  .advantage--card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+  }
